@@ -1,12 +1,16 @@
 import React from "react";
 import Link from "gatsby-link";
+import Nav from "../components/Nav";
 
 class Template extends React.Component {
   render() {
     return (
-      <pre>
-        <code>{JSON.stringify(this.props, null, 4)}</code>
-      </pre>
+      <div className="layout">
+        <Nav />
+        <pre>
+          <code>{JSON.stringify(this.props, null, 4)}</code>
+        </pre>
+      </div>
     );
   }
 }

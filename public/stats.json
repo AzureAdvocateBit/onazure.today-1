@@ -1,53 +1,59 @@
 {
   "assetsByChunkName": {
+    "path---react": [
+      "path---react-b9e764b50ff557fa10a3.js",
+      "path---react-b9e764b50ff557fa10a3.js.map"
+    ],
     "path---my-second-post": [
-      "path---my-second-post-0844f6dd36a315225c60.js",
-      "path---my-second-post-0844f6dd36a315225c60.js.map"
+      "path---my-second-post-4abb21789b00db53822d.js",
+      "path---my-second-post-4abb21789b00db53822d.js.map"
     ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-63b4ee9f3d2a5bb31796.js",
       "component---src-pages-index-js-63b4ee9f3d2a5bb31796.js.map"
     ],
     "path---": [
-      "path----95f47f87c44fe57869b6.js",
-      "path----95f47f87c44fe57869b6.js.map"
+      "path----b1f053c8a6c353f6dfe3.js",
+      "path----b1f053c8a6c353f6dfe3.js.map"
     ],
     "component---node-modules-gatsby-plugin-offline-app-shell-js": [
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
     ],
     "component---src-templates-blog-post-js": [
-      "component---src-templates-blog-post-js-c1c01f1f13514660d460.js",
-      "component---src-templates-blog-post-js-c1c01f1f13514660d460.js.map"
+      "component---src-templates-blog-post-js-b10a91b354db420390b0.js",
+      "component---src-templates-blog-post-js-b10a91b354db420390b0.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-1aecdb8de36347e6820a.js",
-      "component---src-layouts-index-js-1aecdb8de36347e6820a.js.map"
+      "component---src-layouts-index-js-a83830e268f1f835c6f7.js",
+      "component---src-layouts-index-js-a83830e268f1f835c6f7.js.map"
     ],
     "path---hi-folks": [
-      "path---hi-folks-67ebe11fc2339540d170.js",
-      "path---hi-folks-67ebe11fc2339540d170.js.map"
+      "path---hi-folks-c56b5e86aeff9f33b13f.js",
+      "path---hi-folks-c56b5e86aeff9f33b13f.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
       "path---index-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---hello-world": [
-      "path---hello-world-f7d024a796fd140722ab.js",
-      "path---hello-world-f7d024a796fd140722ab.js.map"
+      "path---hello-world-0ca79dd8a4f20e2610bf.js",
+      "path---hello-world-0ca79dd8a4f20e2610bf.js.map"
     ],
     "commons": [
       "commons-3cf304937523a964e309.js",
-      "commons-3cf304937523a964e309.js.map"
+      "build-js-styles.css",
+      "commons-3cf304937523a964e309.js.map",
+      "build-js-styles.css.map"
     ],
     "path---offline-plugin-app-shell-fallback": [
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-70d4f75a058c0ec21116.js",
+      "app-e468e1c4de9f4780ddda.js",
       "build-js-styles.css",
-      "app-70d4f75a058c0ec21116.js.map",
+      "app-e468e1c4de9f4780ddda.js.map",
       "build-js-styles.css.map"
     ]
   }

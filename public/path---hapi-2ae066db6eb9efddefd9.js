@@ -1,0 +1,2 @@
+webpackJsonp([42831577381705],{357:function(a,t){a.exports={data:{site:{siteMetadata:{title:"Gatsby Starter Blog",author:"Kyle Mathews"}},markdownRemark:{id:"/Users/brianholt/microsoft/onazure/tutorials/hapi/index.md absPath of file >>> MarkdownRemark",html:"<h1>Hapi</h1>",frontmatter:{title:"Hapi",logo:{childImageSharp:{resize:{src:"/static/hapi-727c56434f9a44e382b8b04672aba764-2881c.png"}}}}}},pathContext:{slug:"/hapi/"}}}});
+//# sourceMappingURL=path---hapi-2ae066db6eb9efddefd9.js.map

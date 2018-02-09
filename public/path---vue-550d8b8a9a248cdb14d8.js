@@ -1,0 +1,2 @@
+webpackJsonp([0xa8eeed4a8782],{361:function(e,t){e.exports={data:{site:{siteMetadata:{title:"Gatsby Starter Blog",author:"Kyle Mathews"}},markdownRemark:{id:"/Users/brianholt/microsoft/onazure/tutorials/vue/index.md absPath of file >>> MarkdownRemark",html:"<h1>Vue</h1>",frontmatter:{title:"Vue",logo:{childImageSharp:{resize:{src:"/static/vue-d6395cc7f3b1319e0708e0feb777076c-2881c.png"}}}}}},pathContext:{slug:"/vue/"}}}});
+//# sourceMappingURL=path---vue-550d8b8a9a248cdb14d8.js.map

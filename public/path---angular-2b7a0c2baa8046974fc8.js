@@ -1,0 +1,2 @@
+webpackJsonp([0xfaf4f4ea4eab],{355:function(a,t){a.exports={data:{site:{siteMetadata:{title:"Gatsby Starter Blog",author:"Kyle Mathews"}},markdownRemark:{id:"/Users/brianholt/microsoft/onazure/tutorials/angular/index.md absPath of file >>> MarkdownRemark",html:"<h1>Angular</h1>",frontmatter:{title:"Angular",logo:{childImageSharp:{resize:{src:"/static/angular-9db278d630f5fabd8e7ba16c2e329a3a-2881c.png"}}}}}},pathContext:{slug:"/angular/"}}}});
+//# sourceMappingURL=path---angular-2b7a0c2baa8046974fc8.js.map

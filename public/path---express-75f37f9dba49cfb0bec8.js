@@ -1,0 +1,2 @@
+webpackJsonp([85263177532312],{356:function(e,t){e.exports={data:{site:{siteMetadata:{title:"Gatsby Starter Blog",author:"Kyle Mathews"}},markdownRemark:{id:"/Users/brianholt/microsoft/onazure/tutorials/express/index.md absPath of file >>> MarkdownRemark",html:"<h1>Express</h1>",frontmatter:{title:"Express",logo:{childImageSharp:{resize:{src:"/static/express-d638bd34b425dec39792d4a81189eddf-2881c.png"}}}}}},pathContext:{slug:"/express/"}}}});
+//# sourceMappingURL=path---express-75f37f9dba49cfb0bec8.js.map

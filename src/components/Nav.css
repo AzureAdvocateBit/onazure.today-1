@@ -6,6 +6,8 @@
   display: flex;
   justify-content: left;
   align-items: center;
+  position: sticky;
+  top: 0;
 }
 
 .on-logo-text {
@@ -21,4 +23,10 @@
 .on-logo-img {
   max-width: 100px;
   max-height: 50px;
+}
+
+@media only screen and (max-width: 500px) {
+  .navbar {
+    justify-content: center;
+  }
 }

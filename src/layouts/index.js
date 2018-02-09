@@ -1,17 +1,13 @@
 import React from "react";
+import "reset-css/reset.css";
+import "prismjs/themes/prism-solarizedlight.css";
+import "./index.css";
 import Link from "gatsby-link";
 import Nav from "../components/Nav";
 
 class Template extends React.Component {
   render() {
-    return (
-      <div className="layout">
-        <Nav />
-        <pre>
-          <code>{JSON.stringify(this.props, null, 4)}</code>
-        </pre>
-      </div>
-    );
+    return <div className="layout">{this.props.children()}</div>;
   }
 }
 
@@ -22,7 +18,7 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(sort: { fields: [frontmatter___title], order: DESC }) {
       edges {
         node {
           excerpt
@@ -30,7 +26,6 @@ export const pageQuery = graphql`
             slug
           }
           frontmatter {
-            date(formatString: "DD MMMM, YYYY")
             title
           }
         }

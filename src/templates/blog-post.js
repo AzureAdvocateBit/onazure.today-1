@@ -1,10 +1,12 @@
 import React from "react";
 import Helmet from "react-helmet";
 import Link from "gatsby-link";
+import Nav from "../components/Nav";
 import get from "lodash/get";
 
 class BlogPostTemplate extends React.Component {
   render() {
+    console.log("my props", this.props);
     const post = this.props.data.markdownRemark;
     const siteTitle = get(this.props, "data.site.siteMetadata.title");
     const { previous, next } = this.props.pathContext;
@@ -12,8 +14,11 @@ class BlogPostTemplate extends React.Component {
     return (
       <div>
         <Helmet title={`${post.frontmatter.title} | ${siteTitle}`} />
+        <Nav
+          title={this.props.data.markdownRemark.frontmatter.title}
+          logo={this.props.data.markdownRemark.frontmatter.logo}
+        />
         <h1>{post.frontmatter.title}</h1>
-        <p>{post.frontmatter.date}</p>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr />
 
@@ -62,7 +67,13 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        date(formatString: "MMMM DD, YYYY")
+        logo {
+          childImageSharp {
+            resize(width: 400) {
+              src
+            }
+          }
+        }
       }
     }
   }

@@ -1,5 +1,24 @@
 .navbar {
   width: 100%;
-  background-color: #333;
+  background-color: #000;
   color: #fafafa;
+  padding: 25px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.on-logo-text {
+  font-size: 30px;
+  margin: 0 15px;
+}
+
+.navbar-logo {
+  max-width: 100px;
+  max-height: 50px;
+}
+
+.on-logo-img {
+  max-width: 100px;
+  max-height: 50px;
 }

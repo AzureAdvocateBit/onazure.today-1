@@ -1,31 +1,30 @@
 import React from "react";
 import Link from "gatsby-link";
-import logo from "./microsoft-gray.png";
+import logo from "./azure.svg";
 import "./Nav.css";
 
-class Bio extends React.Component {
+class Nav extends React.Component {
   render() {
     let onLogo = null;
-    if (this.props.onLogo) {
-      onLogo = (
-        <div className="on-logo">
-          <img
-            className="on-logo-img"
-            src={this.props.onLogo}
-            alt={`${this.props.title} logo`}
-          />
-          <p className="on-logo-text">on</p>
-        </div>
-      );
+    if (this.props.logo) {
+      onLogo = [
+        <img
+          className="on-logo-img"
+          src={this.props.logo.childImageSharp.resize.src}
+          alt={`${this.props.title} logo`}
+        />,
+        <span className="on-logo-text">on</span>
+      ];
     }
     return (
       <nav className="navbar">
+        {onLogo}
         <Link to="/">
-          <img src={logo} alt="Microsoft Logo" />
+          <img className="navbar-logo" src={logo} alt="Microsoft Logo" />
         </Link>
       </nav>
     );
   }
 }
 
-export default Bio;
+export default Nav;

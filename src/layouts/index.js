@@ -7,6 +7,7 @@ import Nav from "../components/Nav";
 
 class Template extends React.Component {
   render() {
+    console.log(this.props.data);
     return <div className="layout">{this.props.children()}</div>;
   }
 }

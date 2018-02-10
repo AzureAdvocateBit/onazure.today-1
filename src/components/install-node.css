@@ -1,0 +1,27 @@
+.install-node {
+  border-color: #ffdc00;
+  background-color: #fff89b;
+  border-radius: 15px;
+}
+.tutorial-body .install-node-body {
+  display: none;
+  margin-top: 0;
+}
+
+.tutorial-body .install-node-body p {
+  padding: 8px;
+}
+
+.install-node-body.show {
+  display: block;
+}
+
+.install-node-head {
+  width: 100%;
+  background-color: #ffdc00;
+  border: #ddd;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 18px;
+  padding: 15px;
+}

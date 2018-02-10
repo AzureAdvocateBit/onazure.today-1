@@ -1,3 +1,24 @@
 .tutorial-body {
   padding: 15px;
+  max-width: 850px;
+  margin: 10px auto;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+}
+
+.tutorial-body p {
+  margin: 15px 0;
+  line-height: 1.5;
+  font-size: 17px;
+}
+
+.tutorial-body h1 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.tutorial-body h2 {
+  font-size: 20px;
+  font-weight: bold;
 }

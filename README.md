@@ -16,7 +16,7 @@ https://onazure.today is a quick collection of tutorials on how to do X technolo
 ### Content Suggesstions
 
 * Link to official docs for a specific framework
-* Link to docs.microsoft.com when approriate
+* Link to https://docs.microsoft.com:80/?WT.mc_id=onazure.today-github-shboyer when approriate
 * Credit contributors
 * Create samples with tests
 * Spread the word
